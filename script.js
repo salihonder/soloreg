@@ -1,4 +1,10 @@
-
+/*
+	SoloReg v0.1
+	Simple JavaScript Regex Online Editor
+	(c) 2013-2015 Salih Onder <http://singlereport.net>
+	The MIT License (MIT)
+	script.js
+*/
 
 function execute(){
 
