@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>SoloReg</title>
+</head>
+<body>
+<div class = "outer">
+<div class="header">
+<h1>SoloReg</h1>
+<h3>Javascript Regular Expression Editor</h3>
+</div>
+
+<div class = "content">
+	<div class = "regex">
+		
+		<div class = "expression">
+			<h2>Regular Expression</h2>
+			<span class = "slash">/</span>
+			<input id = "id_textbox_pattern" value = "" onblur = "execute()" maxlength="255">
+			<span class = "slash">/</span>
+			<input id = "id_textbox_modifier" onblur = "execute()" maxlength="2">
+		</div>
+		<div class = "test_sentence">
+			<h2>Test Sentence</h2>
+			<input id = "id_textbox_test_sentence" value = ""  onblur = "execute()" maxlength="255">
+		</div>
+		<div class = "match_results">
+			<h2>Match Results</h2>
+            <ol id = "id_box_match_results">			
+                </ol>
+		</div>
+	</div>
+	<div class = "regex_match_results">
+	</div>
+
+
+</div>
+
+<div class = "footer">
+<h3>Created by Salih Onder 2013</h3>
+</div>
+
+</div>
+
+</body>
+
+</html>

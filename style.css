@@ -1,0 +1,130 @@
+body {
+background-color: #000;
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+.outer{
+ margin: 0 auto;
+ width: 40em;
+}
+
+.header {
+overflow: hidden;
+position: relative;
+}
+
+.header h1{
+ color: #FFFFFF;
+ float: left;
+ font-family: monospace, cursive;
+ font-size: 6.1em;
+ font-weight: bold;
+ line-height: 1.3em;
+ margin: 0.2em 0 0.2em 0.3em;
+}
+
+.header, .footer{
+
+ color: #808080;
+ line-height: 1.6em;
+
+
+
+}
+
+.header h3{
+ font-weight: 100;
+ letter-spacing: 0.17em;
+ margin-top: 7em;
+ text-align: right;
+ position:absolute;
+border-bottom: 0.3em solid #474747;
+width:30em;
+margin-left: 2em;
+}
+.content{
+ background-color: #FFFFFF;
+ border-radius: 35px 35px 35px 35px;
+ box-shadow: 0 0 30px #A1A1A1;
+ color: #333333;
+ margin: 1.5em;
+ padding: 1em;
+ width: 35em;
+}
+.regex{
+
+}
+input{
+padding: 0.75em;
+border: 0.1em solid #CCCCCC;
+/*font-size:2em;*/
+
+}
+
+.regex #id_textbox_pattern  {
+    margin: 0 4px;
+    width: 30em;
+}
+
+.regex #id_textbox_modifier  {
+    margin-left: 4px;
+    width: 1em;
+}
+.regex #id_textbox_test_sentence  {
+    
+    width: 37em;
+}
+
+h2{
+font-size: 18px;
+margin-bottom: 10px;
+color: #668BFA;
+font-weight:700;
+}
+
+.expression ,.test_sentence, .match_results{
+font-size: 2em;
+margin: 0 auto;
+padding: 0.2em;
+width: 16em;
+/*border: 1px solid #000000;*/
+
+}
+
+#sentence ,#match{
+width: 36em;
+margin: 1em auto;
+}
+.expression #pattern{
+margin: 1em 0.5em;
+width:26em;
+}
+
+.expression #modifier{
+margin:0 0.5em;
+width:2em;
+}
+.footer h3{
+ font-weight: 200;
+border-top: 0.3em solid #474747;
+text-align: center;
+width:30em;
+margin-left: 2em;
+}
+.match_results{
+background-color: #808080;
+}
+.match_results h2{
+display:none;
+}
+
+.slash{
+font-weight:bold;
+}
+#id_box_match_results{
+margin-left:2em;
+}
